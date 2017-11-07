@@ -1,0 +1,105 @@
+#fullpic {
+    overflow-y:hidden;
+  background: linear-gradient(rgba(13,110,170,1), rgba(42,200,120,1)) no-repeat center center fixed;
+  
+}
+
+#container-about {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    padding-top: 24rem;
+}
+
+#landing-lead {
+    color: white;
+    display: block;
+    width: 79%;
+    font-size: 2.3rem;
+    
+}
+
+#landing-header {
+    color: white;
+    font-weight: bold;
+    font-size: 6rem;
+        
+}
+
+.btn {
+    font-size: 2.1rem;
+    border-radius: 3px;
+    padding: .5rem 6rem .5rem 6rem;
+}
+
+.btn-primary {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: rgba(42,200,120,1);
+    background-color: white;
+    opacity: 1;
+    border-color: #fff; /*set the color you want here*/
+}
+
+#button-clear {
+    margin-right: 3.5rem;
+}
+
+#button-fill {
+   
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: rgba(42,200,120,1);
+    opacity: 1;
+    border-color: #fff; /*set the color you want here*/
+    font-weight: 300;
+}
+
+.footer {
+  position: fixed;
+  bottom: 4rem;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  
+}
+
+.footer a {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  transition: all .5s ease; 
+  
+}
+
+.footer a:nth-last-child(1) {
+  color: white;
+    opacity: .5;
+  font-size: 20px;
+  padding: 10px;
+  transition: all .5s ease; 
+  
+}
+
+#language-setting {
+    
+}
+
+
+.footer a:hover {
+   
+    text-decoration: none;
+    
+} 
+
+.footer a:hover:nth-last-child(1) {
+    opacity: 1;
+    text-decoration: none;
+    
+} 
+
+
+/* End of Sticky*/

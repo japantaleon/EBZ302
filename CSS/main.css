@@ -103,3 +103,54 @@
 
 
 /* End of Sticky*/
+
+
+/* Slanted background Start */
+
+#slanted-background {
+  height: 35rem;
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  background: linear-gradient(rgba(13,110,170,1), rgba(42,200,120,1), rgba(42,200,120,1)) no-repeat center center fixed;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 16%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+}
+
+#invest-header {
+    color: white;
+    margin-top: 11rem;
+}
+
+
+
+#roth-header {
+    font-size: 7rem;
+    margin-top: 0;
+    font-weight: 600;
+}
+
+#top-header {
+    margin-bottom: .4rem;
+}
+
+#invest-content {
+   padding-top: 3rem;
+}
+
+#p-header {
+    font-size: 3.3rem;
+    font-weight: 600;
+} 
+
+#p-content {
+    font-size: 2.2rem;
+    margin-top: 2rem;
+}
+
+#content-select {
+    font-size: 4rem;
+}
+
+#content-select i {
+    color: lightgray;
+}
+

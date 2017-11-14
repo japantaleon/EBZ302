@@ -131,9 +131,6 @@
     margin-bottom: .4rem;
 }
 
-#invest-content {
-   padding-top: 3rem;
-}
 
 #p-header {
     font-size: 3.3rem;
@@ -160,6 +157,21 @@
 
 #content-buttons {
     padding-top: 12rem;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#invest-content {
+   padding-top: 3rem;
+    /* This section calls the slideInFromLeft animation we defined above */
+  animation: .6s ease-out 0s 1 slideInFromBottom;  
 }
 
 

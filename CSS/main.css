@@ -49,12 +49,20 @@
 
 
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+
+
+#button-fill {
+    background: white;
     color: rgba(42,200,120,1);
-    opacity: 1;
-    border-color: #fff; /*set the color you want here*/
-    font-weight: 300;
 }
+
+#button-fill:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: rgba(42,200,120,1);
+    opacity: .9;
+    border-color: #fff; /*set the color you want here*/
+    
+}
+
 
 .footer {
   position: fixed;
@@ -111,7 +119,8 @@
   font-family: 'Proxima Nova', Georgia, sans-serif;
   background: linear-gradient(rgba(13,110,170,1), rgba(42,200,120,1), rgba(42,200,120,1)) no-repeat center center fixed;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 16%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  margin-bottom: 5rem;  
 }
 
 #invest-header {
@@ -119,6 +128,7 @@
     margin-top: 11rem;
 }
 
+/* Invest Content Meaning Row */
 
 
 #roth-header {
@@ -151,7 +161,9 @@
     color: lightgray;
 }
 
-
+#meaning-invest {
+    margin-bottom: 10rem;
+}
 
 
 
@@ -159,6 +171,7 @@
     padding-top: 12rem;
 }
 
+/* Content Animation Start */
 @keyframes slideInFromBottom {
   0% {
     transform: translateY(100%);
@@ -171,7 +184,40 @@
 #invest-content {
    padding-top: 3rem;
     /* This section calls the slideInFromLeft animation we defined above */
-  animation: .6s ease-out 0s 1 slideInFromBottom;  
+  animation: .75s ease-out 0s 1 slideInFromBottom;  
+}
+
+/* Invest How it Works */
+
+
+#invest-icons {
+    font-size: 10rem; 
+    color: rgba(42,200,150,1);
+    margin-bottom: 1.5rem;
+}
+
+#how-header {
+    margin-bottom: 10rem; 
+    
 }
 
 
+#how-it-works {
+    margin-bottom: 12rem;
+}
+
+#invest-procon {
+ background: linear-gradient(rgba(13,110,170,1), rgba(13,110,170,1), rgba(42,200,120,1)) no-repeat center center fixed;
+  
+}
+
+#pro-header {
+    color: white;
+    margin-bottom: 4rem;
+}
+
+#pro-lead {
+    color: white;
+    margin-bottom: 10rem;
+   
+}

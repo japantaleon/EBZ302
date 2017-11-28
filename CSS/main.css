@@ -133,7 +133,6 @@
 
 #roth-header {
     font-size: 7rem;
-    margin-top: 0;
     font-weight: 600;
 }
 
@@ -172,6 +171,7 @@
 }
 
 /* Content Animation Start */
+
 @keyframes slideInFromBottom {
   0% {
     transform: translateY(100%);
@@ -206,6 +206,9 @@
     margin-bottom: 12rem;
 }
 
+
+/* Pro and Con Section */
+
 #invest-procon {
  background: linear-gradient(rgba(13,110,170,1), rgba(13,110,170,1), rgba(42,200,120,1)) no-repeat center center fixed;
   
@@ -220,4 +223,8 @@
     color: white;
     margin-bottom: 10rem;
    
+}
+
+#pro-button-margin {
+    margin-bottom: 17rem;
 }

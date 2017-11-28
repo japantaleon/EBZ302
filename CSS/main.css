@@ -228,3 +228,27 @@
 #pro-button-margin {
     margin-bottom: 17rem;
 }
+
+/* Why do it Section */
+
+#why-header {
+    margin-bottom: 3rem;
+}
+
+#why-lead {
+    margin-bottom: 4rem;
+}
+
+#button-why {
+     background:  linear-gradient(rgba(13,110,170,1), rgba(13,110,170,1),rgba(42,200,120,1)) no-repeat center center fixed;
+    margin-bottom: 10rem;
+    font-weight: 300;
+}
+
+
+#button-why:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: white;
+    opacity: .9;
+    border-color: #fff; /*set the color you want here*/
+    
+}

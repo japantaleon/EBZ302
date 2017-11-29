@@ -275,6 +275,29 @@
 }
 
 
+
+#button-learn.btn {
+    font-size: 1.7rem;
+    border-radius: 3px;
+    padding: .5rem 3rem .5rem 3rem;
+    
+}
+
+#button-learn {
+    font-size: 1.5rem;
+     background-image: linear-gradient(to right, rgba(13,110,170,1) 0%,  #4CB8C4 100%);
+    font-weight: 300;
+}
+
+
+#button-learn:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: white;
+    opacity: .9;
+    border-color: #fff; /*set the color you want here*/
+    background-image: linear-gradient(to right, rgba(13,110,170,1) 0%,  #4CB8C4 60%);
+    
+}
+
 /* Pro and Con Section */
 
 #invest-procon {
@@ -329,3 +352,5 @@
     background-image: linear-gradient(to right, rgba(13,110,170,1) 0%,  #4CB8C4 60%);
     
 }
+
+

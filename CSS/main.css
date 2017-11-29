@@ -97,8 +97,7 @@
 
 
 .footer a:hover {
-   
-    text-decoration: none;
+   text-decoration: none;
     
 } 
 
@@ -110,6 +109,52 @@
 
 
 /* End of Sticky*/
+
+
+/* Content Footer */
+#content-footer {
+    position: inherit;
+    background:linear-gradient(to right, rgba(13,110,170,1) 0%,  rgba(42,200,120,1) 100%);
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100%;
+  line-height: 66px; /* Vertically center the text there */
+}
+
+#footer-icons {
+    color: white;
+    font-size: 2.9rem;
+    opacity: 1;
+    
+}
+
+#content-footer a {
+  color: white;
+  padding: 20px;
+  transition: all .5s ease; 
+  
+}
+
+
+
+#content-footer a:nth-last-child(1) {
+  color: white;
+  opacity: 1;
+  font-size: 20px;
+  padding: 10px;
+  transition: all .5s ease; 
+  
+}
+
+
+#content-footer a:hover {
+   text-decoration: none;
+    color: white;
+    opacity: .6;
+    
+} 
+
+
 
 
 /* Slanted background Start */
@@ -187,12 +232,30 @@
   animation: .75s ease-out 0s 1 slideInFromBottom;  
 }
 
+
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translatex(-100%);
+  }
+  100% {
+    transform: translatex(0);
+  }
+}
+
+#container-about {
+   
+    /* This section calls the slideInFromLeft animation we defined above */
+  animation: .75s ease-out 0s 1 slideInFromLeft;  
+}
+
 /* Invest How it Works */
 
 
 #invest-icons {
     font-size: 10rem; 
-    color: rgba(42,200,150,1);
+    color: rgba(42,155,150,1);
     margin-bottom: 1.5rem;
 }
 
@@ -240,7 +303,7 @@
 }
 
 #button-why {
-     background:  linear-gradient(rgba(13,110,170,1), rgba(13,110,170,1),rgba(42,200,120,1)) no-repeat center center fixed;
+     background-image: linear-gradient(to right, rgba(13,110,170,1) 0%,  #4CB8C4 100%);
     margin-bottom: 10rem;
     font-weight: 300;
 }
@@ -250,5 +313,6 @@
     color: white;
     opacity: .9;
     border-color: #fff; /*set the color you want here*/
+    background-position: right center;
     
 }

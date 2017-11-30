@@ -91,6 +91,15 @@
   
 }
 
+.footer a:nth-last-child(0) {
+  color: white;
+    opacity: 1;
+  font-size: 20px;
+  padding: 10px;
+  transition: all .5s ease; 
+  
+}
+
 #language-setting {
     
 }
@@ -354,7 +363,6 @@
 }
 
 #my-navbar {
-    color: white;
     background-color: transparent;
     border-color: transparent;
 }
